@@ -1,0 +1,5 @@
+condition,rpm,torque_Nm,radial_force_N,already_in_recovered_15_ZIPs,data_status,official_url
+N15_M07_F10,1500,0.7,1000,yes,verified 300 recordings,https://mb.uni-paderborn.de/en/kat/research/bearing-datacenter/operating-conditions
+N09_M07_F10,900,0.7,1000,yes,verified 300 recordings,https://mb.uni-paderborn.de/en/kat/research/bearing-datacenter/operating-conditions
+N15_M01_F10,1500,0.1,1000,no,not downloaded nor evaluated,https://mb.uni-paderborn.de/en/kat/research/bearing-datacenter/operating-conditions
+N15_M07_F04,1500,0.7,400,no,not downloaded nor evaluated,https://mb.uni-paderborn.de/en/kat/research/bearing-datacenter/operating-conditions

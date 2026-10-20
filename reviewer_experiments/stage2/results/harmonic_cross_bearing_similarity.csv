@@ -1,0 +1,6 @@
+representation,dimensions,same_fault_cross_bearing_cross_speed_cosine_mean,different_fault_cross_bearing_cross_speed_cosine_mean,similarity_gap,same_bearing_cross_speed_cosine_mean,same_class_n_pairs,different_class_n_pairs,n_distinct_physical_bearings
+full_order_256,256,-0.33551726,-0.42246038,0.08694312,-0.24953076,60,150,15
+physical_harmonic_context,48,-0.1940515,-0.35255447,0.15850297,-0.052456863,60,150,15
+uniform_harmonic_context,48,-0.3382809,-0.411391,0.0731101,-0.25998738,60,150,15
+physical_harmonic_only,36,-0.19355792,-0.3518589,0.158301,-0.051307686,60,150,15
+broad_context_only,12,-0.23667184,-0.3818739,0.14520207,-0.20703961,60,150,15

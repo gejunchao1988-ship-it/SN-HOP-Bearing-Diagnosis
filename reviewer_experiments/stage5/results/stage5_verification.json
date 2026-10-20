@@ -1,0 +1,13 @@
+{
+  "dg_task_count": 40,
+  "dg_prediction_count": 4800,
+  "source_cv_config_count": 180,
+  "physical_bearing_disjoint_all": true,
+  "replayed_model_predictions_match": true,
+  "max_probability_difference": 1.1102230246251565e-16,
+  "coverage_tasks": 20,
+  "coverage_predictions": 2400,
+  "metric_recalculation_all_match": true,
+  "original_v1_snhop_mean_ba": 0.5666666666666667,
+  "original_v1_full_order_mean_ba": 0.4133333333333333
+}

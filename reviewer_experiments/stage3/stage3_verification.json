@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "raw_recordings": 600,
+  "source_archive_sha256_checks": 15,
+  "clean_replayed_predictions": 2400,
+  "clean_tasks": 20,
+  "nonwhite_task_rows": 160,
+  "nonwhite_prediction_rows": 19200,
+  "noise_derived_spectra": 4800,
+  "repeated_simulations_per_condition": 2,
+  "SNR_max_abs_error_dB": 2.8929823996598624e-15,
+  "results_pct": {
+    "band_limited_colored_0dB": 34.625,
+    "band_limited_colored_10dB": 56.25,
+    "clean_clean": 56.66667,
+    "random_damped_impacts_0dB": 36.91667,
+    "random_damped_impacts_10dB": 47.14583
+  }
+}

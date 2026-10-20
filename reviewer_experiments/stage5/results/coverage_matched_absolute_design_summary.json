@@ -1,0 +1,11 @@
+{
+  "design": "Ablation restricts each 256-bin absolute-frequency envelope input to 0..min(1250,50*f_r) Hz by zero masking. In source and target this equals the physical coverage of the 0..50-order representation; frequencies remain in fixed hertz coordinates. Does NOT equalize spectral bin density or algorithmic inductive bias.",
+  "mean_ba_pct": {
+    "1500_to_900": 30.0,
+    "900_to_1500": 33.83333333333333,
+    "combined": 31.91666666666666
+  },
+  "execution_seconds": 15.521943092346191,
+  "original_absolute_0_1250_ba_pct": 33.625,
+  "original_order_0_50_ba_pct": 41.33333333333333
+}

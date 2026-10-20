@@ -1,0 +1,23 @@
+{
+  "file_count": 197,
+  "source_code_files": 33,
+  "syntax_errors": [],
+  "scripts_containing_hardcoded_dev_paths": [
+    "reviewer_experiments/stage4/run_load_transfer_v1.py",
+    "reviewer_experiments/stage4/verify_stage4.py",
+    "reviewer_experiments/stage3/src/run_nonwhite_noise.py",
+    "reviewer_experiments/stage3/src/verify_stage3.py",
+    "reviewer_experiments/stage4/src/preprocess.py",
+    "reviewer_experiments/stage1/src/run_window_resolution.py",
+    "reviewer_experiments/stage1/src/run_bandpass_sensitivity.py",
+    "reviewer_experiments/stage1/src/run_end_to_end_timing.py",
+    "reviewer_experiments/stage2/src/run_sideband_analysis.py",
+    "reviewer_experiments/stage2/src/run_feature_and_error_analysis.py",
+    "reviewer_experiments/stage2/src/verify_stage2.py",
+    "reviewer_experiments/stage2/src/run_regrouping_sensitivity.py",
+    "canonical_v1/src/preprocess.py"
+  ],
+  "possible_credential_matches": [],
+  "excluded_count": 79,
+  "note": "Static parsing only; not a clean-room reproduction or runtime validation."
+}

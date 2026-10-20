@@ -1,0 +1,38 @@
+{
+  "matched_dimension": {
+    "task_count": 40,
+    "predictions": 4800,
+    "balanced_accuracy_consistent": true
+  },
+  "single_target_uda": {
+    "task_count": 60,
+    "predictions": 3600,
+    "balanced_accuracy_consistent": true
+  },
+  "window_resolution": {
+    "task_count": 40,
+    "predictions": 4800,
+    "balanced_accuracy_consistent": true
+  },
+  "background_width": {
+    "task_count": 80,
+    "predictions": 9600,
+    "balanced_accuracy_consistent": true
+  },
+  "bandpass": {
+    "task_count": 40,
+    "predictions": 4800,
+    "balanced_accuracy_consistent": true
+  },
+  "raw_archive": {
+    "archive_count": 15,
+    "manifest_mat_files": 600,
+    "hash_verified": true
+  },
+  "runtime": {
+    "full_pipeline_recordings": 600,
+    "reprocessed_match_to_v1": true
+  },
+  "v1_cache_sha256": "75485410e09124afed4846d1e4e4fb4198949d380082afe0ed9110f655fdb958",
+  "all_checks_passed": true
+}

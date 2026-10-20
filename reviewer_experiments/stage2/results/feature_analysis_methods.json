@@ -1,0 +1,9 @@
+{
+  "representation_width": 0.4,
+  "max_order": 35,
+  "background_width": 1.2,
+  "pair_comparison": "900 rpm bearing centroid vs 1500 rpm OTHER bearing centroid, matched class or mismatched class",
+  "global_centering": "description-only means over all 600 unlabeled feature vectors, NO model training",
+  "caveat": "bearing pair scores share bearings and are not independent replicates",
+  "code_version": "descriptive_v1"
+}

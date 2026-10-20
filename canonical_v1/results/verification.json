@@ -1,0 +1,29 @@
+{
+  "reference_array_checks": {
+    "order": true,
+    "absolute": true,
+    "pfn": true,
+    "traditional": true,
+    "noisy_order": true
+  },
+  "prediction_checks": {
+    "absolute": true,
+    "order": true,
+    "traditional23": true,
+    "pfn": true,
+    "snhop": true
+  },
+  "versions": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0"
+  },
+  "dependent_checks": {
+    "ablation_tasks_120": true,
+    "uda_tasks_present": true,
+    "noise_tasks_present": true
+  },
+  "all_passed": true
+}

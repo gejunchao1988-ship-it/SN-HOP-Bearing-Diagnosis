@@ -1,0 +1,51 @@
+{
+  "order": {
+    "shape": [
+      600,
+      256
+    ],
+    "dtype": "float32",
+    "sha256_array_bytes": "664030364e18fae6cdfa47806ec52dfef89560a6d4ee68386fe5860bd57a20c5"
+  },
+  "absolute": {
+    "shape": [
+      600,
+      256
+    ],
+    "dtype": "float32",
+    "sha256_array_bytes": "8e9d1d364824d4644efeb2d9f3fffb70a800220c4c89ae100c34777566d791e2"
+  },
+  "pfn": {
+    "shape": [
+      600,
+      128
+    ],
+    "dtype": "float32",
+    "sha256_array_bytes": "ce6cc3a89fcdd47017a93f61df81838bb0fc46ca3f6ca407e49f5f58ba10ca76"
+  },
+  "traditional": {
+    "shape": [
+      600,
+      23
+    ],
+    "dtype": "float64",
+    "sha256_array_bytes": "58dfbeefd21d2d73b026facfd4d8bb1a0141cbd9fdcb8a9558cf760c5145ef8f"
+  },
+  "noisy_order": {
+    "shape": [
+      3,
+      5,
+      600,
+      256
+    ],
+    "dtype": "float32",
+    "sha256_array_bytes": "79a620151c365e6bc1a600192c7459b9d96e32cecec13925b41c61330e4a6564",
+    "snrs": [
+      20,
+      10,
+      6,
+      3,
+      0
+    ]
+  }
+}

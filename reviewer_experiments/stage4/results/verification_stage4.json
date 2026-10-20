@@ -1,0 +1,19 @@
+{
+  "verified_new_recordings": 600,
+  "conditions": [
+    "N15_M01_F10",
+    "N15_M07_F04"
+  ],
+  "per_condition_count": {
+    "N15_M01_F10": 300,
+    "N15_M07_F04": 300
+  },
+  "predictions": 14400,
+  "tasks": 120,
+  "source_only_selected": true,
+  "strict_bearing_partition": true,
+  "canonical_900_to_1500_replayed": true,
+  "new_archives_checksums": 15,
+  "nonindependent_tasks": true,
+  "note": "Cached features rebuilt from raw and canonical settings; original 900-to-1500 result enforced by code assertions."
+}

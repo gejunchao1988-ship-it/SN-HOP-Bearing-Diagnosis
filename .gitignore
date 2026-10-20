@@ -1,4 +1,4 @@
-# Original Paderborn recordings are not redistributed
+# Third-party measurements, raw archives and extracted measurements
 *.mat
 *.rar
 K0*.zip
@@ -6,7 +6,7 @@ KA*.zip
 KI*.zip
 raw/
 raw_data/
-# Regenerated caches and environments
+# Outputs and caches regenerated locally
 *.npz
 *.npy
 __pycache__/

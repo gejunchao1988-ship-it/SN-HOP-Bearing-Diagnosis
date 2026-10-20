@@ -1,0 +1,69 @@
+{
+  "seed": 20261020,
+  "epochs": 160,
+  "learning_rate": 0.02,
+  "input": "canonical v1 full order spectra, per-recording SNV",
+  "optimizer": "Adam full batch",
+  "objective": "linear ERM mean group CE, GroupDRO exponential-weighted group CE + L2 coefficient penalty",
+  "validation": "3-fold SOURCE-bearing-triplet grouped CV; target excluded from train/scaler/selection",
+  "hyperparameters": [
+    {
+      "method": "ERM",
+      "reg": 0.001,
+      "eta": 0
+    },
+    {
+      "method": "ERM",
+      "reg": 0.01,
+      "eta": 0
+    },
+    {
+      "method": "ERM",
+      "reg": 0.1,
+      "eta": 0
+    },
+    {
+      "method": "GroupDRO",
+      "reg": 0.001,
+      "eta": 0.05
+    },
+    {
+      "method": "GroupDRO",
+      "reg": 0.001,
+      "eta": 0.2
+    },
+    {
+      "method": "GroupDRO",
+      "reg": 0.01,
+      "eta": 0.05
+    },
+    {
+      "method": "GroupDRO",
+      "reg": 0.01,
+      "eta": 0.2
+    },
+    {
+      "method": "GroupDRO",
+      "reg": 0.1,
+      "eta": 0.05
+    },
+    {
+      "method": "GroupDRO",
+      "reg": 0.1,
+      "eta": 0.2
+    }
+  ],
+  "n_fold_models": 540,
+  "n_final_models": 40,
+  "n_tasks": 40,
+  "n_pred": 4800,
+  "n_cv": 180,
+  "execution_seconds": 56.99902296066284,
+  "libraries": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0",
+    "torch": "2.10.0+cpu"
+  },
+  "source_cache_sha256": "75485410e09124afed4846d1e4e4fb4198949d380082afe0ed9110f655fdb958"
+}

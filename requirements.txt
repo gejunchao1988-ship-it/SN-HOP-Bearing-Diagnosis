@@ -1,7 +1,7 @@
-# Pinned canonical environment, as documented in the retained reproducibility package
+# Canonical core environment (Python 3.13.5 reported in frozen record)
 numpy==2.3.5
 pandas==2.2.3
 scipy==1.17.0
 scikit-learn==1.8.0
 matplotlib==3.10.8
-# The Stage 5 GroupDRO experiment separately requires a compatible PyTorch installation.
+# Stage 5 GroupDRO uses PyTorch (install a suitable release separately)

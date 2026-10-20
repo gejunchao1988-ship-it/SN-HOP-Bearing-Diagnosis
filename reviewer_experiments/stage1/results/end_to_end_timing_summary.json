@@ -1,0 +1,38 @@
+{
+  "recordings": 600,
+  "trained_example_task": {
+    "direction": "1500_to_900",
+    "held_out_groups": "1-2"
+  },
+  "fit_seconds": 0.0038674500001434353,
+  "timing_ms": {
+    "read_decode_ms": {
+      "median": 32.38478249977561,
+      "mean": 32.700927298332466,
+      "p95": 39.57572680005796
+    },
+    "filter_envelope_fft_ms": {
+      "median": 12.744954500021777,
+      "mean": 12.970261406660484,
+      "p95": 17.129629800183466
+    },
+    "pooling_ms": {
+      "median": 0.5895065000913746,
+      "mean": 0.6543392866653145,
+      "p95": 1.0157352503028956
+    },
+    "classifier_ms": {
+      "median": 0.4333305000727705,
+      "mean": 0.48822924166870507,
+      "p95": 0.735198999836939
+    },
+    "full_inference_ms": {
+      "median": 46.23568150009305,
+      "mean": 46.813757233326974,
+      "p95": 56.80056725004759
+    }
+  },
+  "max_abs_reprocessing_difference": 0.0,
+  "all_cache_matches": true,
+  "timing_note": "Measured on hosted CPU with locally cached compressed ZIPs; excludes raw sensor acquisition, disk/network transfer, and model training. Single-thread BLAS. Not representative of field device latency."
+}

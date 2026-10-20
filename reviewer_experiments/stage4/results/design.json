@@ -1,0 +1,11 @@
+{
+  "canonical_code_file": "src/core.py",
+  "method": "500-10000 Hz 4th-order SOS, filtfilt; abs Hilbert envelope, FFT 8192, order interpolation on 0-50/256 grid, 31 nonoverlapping windows, per-recording mean",
+  "source": "canonical cache and source-only frozen hyperparameters from September 2026 reproducibility v1",
+  "target_conditions": [
+    "N15_M01_F10",
+    "N15_M07_F04"
+  ],
+  "target_leakage": "target features/labels never used for fitting, parameter selection, normalization fitting",
+  "notes": "The canonical original cross-speed 1500_to_900 model selection is reused for source 1500-to-new-load tests; 900_to_1500 for source 900-to-new-load tests. Independent across target tasks but physical specimens recur across folds."
+}

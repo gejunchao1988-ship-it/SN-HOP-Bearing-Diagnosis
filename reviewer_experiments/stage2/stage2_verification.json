@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "groupings": 5,
+  "full_runs_per_method": 100,
+  "total_tasks": 200,
+  "total_predictions": 24000,
+  "v1_identical_predictions_for_original_grouping": true,
+  "representation_comparison_pairs_not_independent": true,
+  "v1_order_cache_sha256": "75485410e09124afed4846d1e4e4fb4198949d380082afe0ed9110f655fdb958",
+  "per_regrouping": [
+    {
+      "scheme": "canonical",
+      "method": "snhop",
+      "tasks": 20,
+      "predictions": 2400,
+      "source_holdout_disjoint": true,
+      "mean_ba_pct": 56.666666666666664
+    },
+    {
+      "scheme": "canonical",
+      "method": "full_order",
+      "tasks": 20,
+      "predictions": 2400,
+      "source_holdout_disjoint": true,
+      "mean_ba_pct": 41.33333333333333
+    },
+    {
+      "scheme": "perm_seed_20261020",
+      "method": "snhop",
+      "tasks": 20,
+      "predictions": 2400,
+      "source_holdout_disjoint": true,
+      "mean_ba_pct": 59.375000000000014
+    },
+    {
+      "scheme": "perm_seed_20261020",
+      "method": "full_order",
+      "tasks": 20,
+      "predictions": 2400,
+      "source_holdout_disjoint": true,
+      "mean_ba_pct": 36.99999999999999
+    },
+    {
+      "scheme": "perm_seed_20261021",
+      "method": "snhop",
+      "tasks": 20,
+      "predictions": 2400,
+      "source_holdout_disjoint": true,
+      "mean_ba_pct": 58.875000000000014
+    },
+    {
+      "scheme": "perm_seed_20261021",
+      "method": "full_order",
+      "tasks": 20,
+      "predictions": 2400,
+      "source_holdout_disjoint": true,
+      "mean_ba_pct": 37.33333333333332
+    },
+    {
+      "scheme": "perm_seed_20261022",
+      "method": "snhop",
+      "tasks": 20,
+      "predictions": 2400,
+      "source_holdout_disjoint": true,
+      "mean_ba_pct": 51.16666666666665
+    },
+    {
+      "scheme": "perm_seed_20261022",
+      "method": "full_order",
+      "tasks": 20,
+      "predictions": 2400,
+      "source_holdout_disjoint": true,
+      "mean_ba_pct": 38.33333333333333
+    },
+    {
+      "scheme": "perm_seed_20261023",
+      "method": "snhop",
+      "tasks": 20,
+      "predictions": 2400,
+      "source_holdout_disjoint": true,
+      "mean_ba_pct": 54.91666666666667
+    },
+    {
+      "scheme": "perm_seed_20261023",
+      "method": "full_order",
+      "tasks": 20,
+      "predictions": 2400,
+      "source_holdout_disjoint": true,
+      "mean_ba_pct": 38.91666666666666
+    }
+  ]
+}

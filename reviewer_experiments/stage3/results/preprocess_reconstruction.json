@@ -1,0 +1,17 @@
+{
+  "original_feature_max_abs_error": 0,
+  "n_raw_records": 600,
+  "noise_processes": [
+    "band_limited_colored",
+    "random_damped_impacts"
+  ],
+  "snrs_db": [
+    10,
+    0
+  ],
+  "replicates": [
+    0,
+    1
+  ],
+  "seed": 20261019
+}

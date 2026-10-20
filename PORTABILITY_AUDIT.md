@@ -1,14 +1,9 @@
-# Private staging release audit
+# Portability and provenance audit
 
-This repository is still **private** and not a complete public reproducibility release.
-
-- No third-party raw Paderborn MAT files are intended to be distributed.
-- The historical execution source was partially lost and the frozen canonical code was reconstructed and checked; it is not the original unmodified code tree.
-- The publication preparation package contains 207 files, 34 Python scripts, and stage-specific numerical evidence.
-- All 34 Python files pass syntax parsing after path-default updates.
-- Main stored predictions were arithmetically checked for five methods: 20 tasks and 2,400 predictions per method.
-- This check does not establish a fresh full end-to-end rerun on a clean computer.
-- Some supplemental scripts still require archived feature caches or private canonical ZIP references.
-- Authors must decide the software license and conduct a clean-environment verification before switching the repository to Public.
-
-See the private staging package for all source files, detailed provenance, results, and logs.
+- No third-party raw `.mat` measurement files are included.
+- Saved CSV results and historic experimental programs are included for inspection.
+- Some historic source defaults were converted from temporary `/mnt/data` directories to project-relative data paths. See `provenance/portable_path_patches.json`.
+- All packaged Python sources have been AST parsed, and the saved main predictions were rechecked against task-level accuracy/F1 metrics.
+- The complete experimental workflows have not yet been rerun on a second machine; stage code may require archived NumPy features and the privately retained frozen canonical ZIP.
+- `canonical_v1/CODE_PROVENANCE.md` discloses reconstructed-source provenance, which must not be removed.
+- No open-source license has been selected, pending author agreement; public release requires license decision.
