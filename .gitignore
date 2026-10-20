@@ -1,0 +1,20 @@
+# Original Paderborn recordings are not redistributed
+*.mat
+*.rar
+K0*.zip
+KA*.zip
+KI*.zip
+raw/
+raw_data/
+# Regenerated caches and environments
+*.npz
+*.npy
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+.env
+*.pem
+*.key
+*_secret*
